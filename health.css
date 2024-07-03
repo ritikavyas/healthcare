@@ -1,0 +1,383 @@
+.container1 {
+    background-color: gray;
+    width: 70%;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+
+
+    margin: 0;
+    padding: 30px 10px 20px 40px;
+    font-size: 53px;
+    line-height: 54px;
+
+}
+
+.para {
+    padding: 40px;
+    margin: 0;
+
+}
+
+p {
+    padding: 50px;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 1.3;
+
+    padding-top: 0;
+}
+
+
+
+.image .logo {
+    margin: 0;
+    padding: 50px;
+    width: 150px;
+    margin-bottom: 1px;
+}
+
+
+.image img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.image {
+    background-image: url("images/Frame\ 6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px;
+
+}
+
+p2 {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.button-wrapper {
+    padding: 0 54px;
+    text-align: left;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #082d5a;
+    color: white;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+    line-height: 2;
+    letter-spacing: 10px;
+
+}
+
+button:hover {
+    background-color: rgb(102, 175, 172);
+
+}
+
+p3 {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+
+
+.page2 {
+    display: flex;
+    justify-content: space-between;
+    /* Align items to the top */
+    position: relative;
+
+    background-color: white;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    background-color: white;
+}
+
+.image2 {
+    position: absolute;
+    position: absolute;
+    top: 40px;
+    width: 400px;
+    right: 1px;
+}
+
+.image2 img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 80px;
+}
+
+.page2 {
+    padding-bottom: 20px;
+    /* Adjust this value to your preference */
+}
+
+.page3 {
+    display: flex;
+    justify-content: space-between;
+    /* Align items to the top */
+    position: relative;
+
+    background-color: white;
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+.image3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 400px;
+    margin-bottom: 0;
+    border: 1px solid #ddd;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+}
+
+.image3 img {
+    display: block;
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+.page4 {
+
+    padding-right: 20px;
+
+
+}
+
+
+
+.image4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+
+}
+
+.image4 img {
+    display: block;
+    width: 55%;
+    border-radius: 10px;
+    height: auto;
+    float: right;
+    margin-top: 99px;
+}
+
+.page4 {
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.page4 {
+    padding-bottom: 20px;
+
+}
+
+.image4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+
+}
+
+.image4 img {
+    display: block;
+    width: 50%;
+    border-radius: 10px;
+    height: auto;
+    float: right;
+    margin-top: 65px;
+}
+
+.image5 img {
+    width: 53%;
+    border-radius: 10px;
+    /* height: auto; */
+    padding-left: 73px;
+    padding-top: 35px;
+}
+
+
+.content .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image5 {
+
+    width: 50%;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 0.6;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.text h1 {
+    margin: 0;
+    padding: 30px 10px 20px 40px;
+    font-size: 30px
+}
+
+.content2 {
+    background-color: #082d5a;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-wrapper2 {
+    padding: 0 54px;
+
+    /* Center the button horizontally */
+    margin: 0;
+}
+
+.styled-button {
+    padding: 15px 100px;
+    background-color: #7187bd;
+    color: white;
+    border: none;
+    font-size: 18px;
+    width: auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    line-height: 2;
+    letter-spacing: 11PX;
+
+
+}
+
+.styled-button:hover {
+    background-color: grey;
+}
+
+.text-content {
+    margin-bottom: 0;
+}
+
+
+
+.content2 {
+    text-align: center;
+    /* Center-align content */
+    padding: 80px 0px 80px;
+}
+
+
+.text2 {
+    color: rgb(187, 183, 183);
+
+}
+
+
+
+
+
+.container {
+    width: 70%;
+    font-size: 20px;
+    padding-left: 30px;
+    /* Ensure enough padding for list markers */
+    background-color: gray;
+    text-indent: 30px;
+
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+.list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 100px;
+    color: #082d5a;
+
+}
+
+.list-wrapper li {
+
+    margin-right: 50px;
+    margin-bottom: 10px;
+
+    list-style-position: inside;
+}
+
+
+
+
+
+
+
+
+.footer {
+    text-align: center;
+    color: #082d5a;
+}
+
+.header {
+    text-align: center;
+    padding: 0px;
+    color: #082d5a;
+    font-weight: bold;
+}
+
+.list-wrapper li:hover {
+    text-decoration: underline;
+    /* Underline list items on hover */
+    cursor: pointer;
+    /* Optional: Change cursor to pointer on hover */
+}
